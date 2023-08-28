@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    /* background-color: black; */
+    margin: 0;
+}
+
+header {
+    /*Enter your code here*/
+    background-color: #186CA3;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 16px 0px 16px 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.menu {
+    width: 20%;
+    background-color: grey;
+    height: 100vh;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+
+.board-container {
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#add-board-btn {
+    background-color: green;
+    border: 1px solid;
+    margin: 10px 20px 10px 0px;
+    padding: 15px;
+}
+
+input {
+    padding: 15px;
+    border: 2px solid;
+    width: 85%;
+    margin: 10px 5px 10px 20px;
+}
+
+.project-card {
+    background-color: grey;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: white;
+    width: 30%;
+}
+
+.project-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#boardName{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#btn{
+    /* margin: 0px 0px 5px 150px; */
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    color: white;
+}
